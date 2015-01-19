@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>psdevFileInput</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/psdev.fileinput.css">
+</head>
+<body>
+	
+	<input type="file" name="file" multiple>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/psdev.fileinput.js"></script>
+	<script>
+	$(function() {
+		$( 'input[name="file"]' ).psdevFileInput();
+	});
+	</script>
+	
+</body>
+</html>
